@@ -1,0 +1,103 @@
+
+ #body {
+    background: #ADADAD;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+            
+.whiteBgs333 {
+    background: #fff297;
+    color: #333;
+    border: 0;
+    padding: 5px;
+}
+            
+.whiteBgs333border {
+    background: #fff297;
+    color: #333;
+    border: 0.1em solid #fff297;
+}
+            
+    
+.text333color {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+            
+.hdrTxtClass {
+    text-align: center;
+    border: 0.1em solid grey;
+    padding: 7;
+    margin: 10;
+    background: grey;
+    color: blue;
+}
+            
+#topTxtId {
+    text-align: center;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*
+.selectOprTxt {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+                
+}
+            
+.selctOprStyle {
+    border: 0.1em solid #333;
+    background: white;
+    color: #333;
+}
+            
+.calcBttn {
+    background: white;
+    border: 0.1em solid #333;
+    color: #333;
+}
+*/          
+#rsltTxt {
+    background: #636363;
+    color: orange;
+    border: 0.1em solid #333;
+    border-radius: 20px;
+    padding: 10px;
+} 
+            
+            
+.clearBttn {
+    border: 0.1em solid #333;
+    background: red;
+    color: white;
+}
+
+.currentOprDsplay {
+    color: blue;
+}
+
+/*
+            
+.containerTheme {
+    DIV THAT CONTAINS THEME SELECTOR 
+    width: 100%;
+    height: auto;
+                
+}
+            
+.themeTxtClass {
+    color: #333;
+    font-weight: bold;
+    
+}
+            
+.themeSelectorClass {
+    background: white;
+    color: #333;
+    border: 0.1em solid #333;
+}
+
+*/
