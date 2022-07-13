@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Webulator</title>
+        <link id="styleLink" href="Styles/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body id="body">
+        <header>
+            <h2 class="hdrTxtClass" id="hdrTxt">WEBULATOR</h2>
+            <hr>
+            <p class="text333color" id="topTxtId">The mini web calculator</p>
+            <br>
+            <p class="text333color" id="themeTxt">Theme</p> 
+            <select class="whiteBgs333border" id="themeSelector" oninput="themeFunc()">
+                <option>Default</option>
+                <option>Dark</option>
+                <option>Jungle</option>
+                <option>Retro</option>
+                <option>Futuristic</option> 
+            </select> 
+            
+          <!--  <input type="checkbox" id="darkCheck" oninput="changeTheme()"> 
+            
+            <label for="darkCheck" class="text333color">Dark Mode</label>
+             -->            
+        </header>
+        <br>
+        <section>
+            <p class="text333color" id="selectOprTxt">Select opperation</p>
+            <select class="whiteBgs333border" id="selectOpr" oninput="displayOpr()">
+                <option>Addition</option>
+                <option>Subtraction</option>
+                <option>Multiplication</option>
+                <option>Division</option>
+            </select>
+            <br>
+            <br>
+            
+            <div>
+                <input type="text" class="whiteBgs333" id="num1">
+            </div>
+            <p class="currentOprDsplay" id="dsplayOprId">
+              PLUS
+            </p>
+            <div>
+                <input type="text" class="whiteBgs333" id="num2">
+            </div>
+        </section>
+        <br>
+        <section>
+            <span>
+                <button class="whiteBgs333border" onclick="calcFunc(); nanCheck();">CALCULATE</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="clearBttn" onclick="clearFunc()">CLEAR</button>
+                
+            </span>
+            
+            <hr>
+            <br>
+           <p class="whiteBgs333border" id="rsltTxt">RESULT APPEARS HERE </p>
+        </section>
+       <!-- <p>Note: "NaN" means "Not a Number". If the error appears, check to see if you havent written any non-numeric characters (letters, symbols etc.)</p> -->
+        <script type="text/javascript" src="Script/webulator4Script.js">
+
+        </script>
+    </body>
+</html>
